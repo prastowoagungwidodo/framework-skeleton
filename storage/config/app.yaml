@@ -1,0 +1,9 @@
+name:               'Safety First'
+version:            '0.1.1'
+env:                'prod'
+basePath:           ''
+srcPath:            'src'
+templateExtension:  'php'
+cache:              true
+usePropel:          false
+response:           'json'

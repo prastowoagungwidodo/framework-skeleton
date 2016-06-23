@@ -1,0 +1,31 @@
+{
+    "name" : "transformatika/framework-skeleton",
+	"type" : "project",
+	"description" : "MVC Skeleton",
+	"keywords" : [
+		"MVC"
+	],
+	"homepage" : "http://www.transformatika.com",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Prastowo Agung Widodo",
+			"email" : "agung@transformatika.com"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/transformatika/framework-skeleton/issues",
+		"email" : "support@transformatika.com"
+	},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "transformatika/utility": "dev-master",
+        "transformatika/config": "dev-master",
+        "propel/propel": "~2.0@dev",
+        "phpunit/phpunit": "^5.4",
+        "transformatika/mvc": "dev-master"
+    }
+}
