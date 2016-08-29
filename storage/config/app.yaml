@@ -1,7 +1,7 @@
-name:               'Safety First'
+name:               'framework-skeleton'
 version:            '0.1.1'
 env:                'prod'
-basePath:           ''
+basePath:           '/transformatika/framework-skeleton/public/'
 srcPath:            'src'
 templateExtension:  'php'
 cache:              true

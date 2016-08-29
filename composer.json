@@ -26,6 +26,6 @@
         "transformatika/config": "dev-master",
         "propel/propel": "~2.0@dev",
         "phpunit/phpunit": "^5.4",
-        "transformatika/mvc": "dev-master"
+        "transformatika/mvc": "^2.1"
     }
 }

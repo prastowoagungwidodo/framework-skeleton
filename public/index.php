@@ -14,5 +14,5 @@ define('BASE_URL', $protocol.$serverName.$path.'/');
 define('DS', DIRECTORY_SEPARATOR);
 define('BASE_PATH', realpath(dirname(__FILE__).DS.'..'));
 
-require_once '../vendor/autoload.php';
-require_once '../src/bootstrap.php';
+require_once BASE_PATH . DS . 'vendor' . DS . 'autoload.php';
+require_once BASE_PATH . DS . 'src' . DS. 'bootstrap.php';
