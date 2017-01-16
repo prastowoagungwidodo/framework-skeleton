@@ -10,18 +10,8 @@ class HomeController extends Controller
     {
         $helloWorld = new HelloWorld();
         return [
-            'headers' => ['Content-Type' => 'text/html'],
-            'template' => 'Home.php',
+            'template' => 'Home.twig',
             'content' => $helloWorld->getHelloWorld()
-        ];
-    }
-
-    public function viewAction()
-    {
-        $id = $this->request->getAttribute('id');
-        return [
-            'headers' => ['Content-Type' => 'application/json'],
-            'id' => $id
         ];
     }
 }

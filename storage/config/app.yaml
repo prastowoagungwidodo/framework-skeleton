@@ -1,9 +1,10 @@
 name:               'framework-skeleton'
 version:            '0.1.1'
-env:                'prod'
+env:                'dev'
 basePath:           '/transformatika/framework-skeleton/public/'
 srcPath:            'src'
 templateExtension:  'php'
-cache:              true
+cache:              false
 usePropel:          false
-response:           'json'
+useTwig:            true
+response:           'html'
